@@ -37,7 +37,8 @@ defmodule EventStore.Supervisor do
       :port,
       :pool,
       :pool_size,
-      :pool_overflow
+      :pool_overflow,
+      :ssl
     ])
     |> Keyword.merge(name: :event_store)
   end
